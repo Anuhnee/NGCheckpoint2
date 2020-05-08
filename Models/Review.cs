@@ -15,6 +15,6 @@ namespace capstone.Models
         public string Title { get; set; }
         public string Body { get; set; }
 
-        public string[] Comments {get; set;}
+        public string DateAdded {get; set;}
     }
 }
