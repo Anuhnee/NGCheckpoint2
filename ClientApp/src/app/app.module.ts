@@ -38,6 +38,8 @@ import { ReviewComponent } from './review/review.component';
         { path: 'fetch-data', component: FetchDataComponent, canActivate: [AuthorizeGuard] },
         { path: 'students', component: StudentsComponent, canActivate: [AuthorizeGuard] },
         { path: 'teachers', component: TeacherComponent, canActivate: [AuthorizeGuard] },
+        { path: 'reviews', component: ReviewComponent, },
+
     ])
   ],
   providers: [
